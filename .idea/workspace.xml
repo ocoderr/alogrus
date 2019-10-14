@@ -62,8 +62,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/go.mod">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state>
+              <caret column="33" selection-start-column="26" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -101,11 +101,12 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2109" />
-    <option name="y" value="51" />
+    <option name="x" value="-2328" />
+    <option name="y" value="38" />
     <option name="width" value="2109" />
     <option name="height" value="1305" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -229,6 +230,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2109" y="51" width="2109" height="1305" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963716" />
@@ -490,8 +492,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/go.mod">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state>
+          <caret column="33" selection-start-column="26" selection-end-column="33" />
         </state>
       </provider>
     </entry>

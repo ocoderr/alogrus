@@ -30,6 +30,9 @@ func SetFormatter(formatter Formatter) {
 func SetReportCaller(include bool) {
 	std.SetReportCaller(include)
 }
+func SetSkipCaller(skip int32) {
+	std.SetSkipCaller(skip)
+}
 
 // SetLevel sets the standard logger level.
 func SetLevel(level Level) {
