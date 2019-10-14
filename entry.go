@@ -174,7 +174,7 @@ func getCaller(skip int32) *runtime.Frame {
 
 		// now that we have the cache, we can skip a minimum count of known-logrus functions
 		// XXX this is dubious, the number of frames may vary
-		minimumCallerDepth = knownLogrusFrames + int(skip)
+		minimumCallerDepth = knownLogrusFrames
 	})
 
 	// Restrict the lookback frames to avoid runaway lookups
@@ -187,6 +187,10 @@ func getCaller(skip int32) *runtime.Frame {
 
 		// If the caller isn't part of this package, we're done
 		if pkg != logrusPackage {
+			if skip != 0 {
+				skip--
+				continue
+			}
 			return &f
 		}
 	}
